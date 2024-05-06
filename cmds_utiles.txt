@@ -1,0 +1,5 @@
+objdump -M intel -d {nombre ejecutable}
+gdb {ejecutable}
+    -b (breakpoint)
+    -si (prox instruccion)
+    -print $xmmo (inspeccionar)
